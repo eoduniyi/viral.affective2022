@@ -9,7 +9,7 @@
 
 Resources for UI/UX, ML, and more
 
-[User Interface Design](https://en.wikipedia.org/wiki/User_interface)
+📺 [User Interface Design](https://en.wikipedia.org/wiki/User_interface)
 
 * [Design Language Systems](https://uxplanet.org/design-language-system-d438f4aa30e0)
   * [Material Design](https://material.io/design/)
@@ -18,21 +18,28 @@ Resources for UI/UX, ML, and more
   * [Skeuomorphism](https://en.wikipedia.org/wiki/Skeuomorph)
   * [Neumorphism](https://medium.com/@artofofiare/neumorphism-the-right-way-a-2020-design-trend-386e6a09040a)
 
-[Game Design](https://en.wikipedia.org/wiki/Game_design)
+👾 [Game Design](https://en.wikipedia.org/wiki/Game_design)
 
-* Game Design
+* Game Design Theory
   * Role-playing models
   * Software applications
   * Game theory
 
-[Machine Learning](https://en.wikipedia.org/wiki/Outline_of_machine_learning)
+🧠 [Machine Learning](https://en.wikipedia.org/wiki/Outline_of_machine_learning)
 
 * Machine Learning Tools  🛠
-  * AutoML
-    * OpenAI
-      * OpenAI API
-    * HuggingFace
-      * AutoTrain
+  * [OpenAI](https://openai.com/about/)
+      * [OpenAI API](https://beta.openai.com/docs/)
+      * [OpenAI Playground](https://beta.openai.com/playground)
+    * [HuggingFace](https://huggingface.co/)
+      * [AutoTrain](https://huggingface.co/autotrain)
+  * [AI Hub](https://aihub.cloud.google.com/)
+  * [labml.ai](https://labml.ai/)
+
+
+
+
+
    
 <!-- * Machine Learning  🧠
   * [Computational learning theory](https://en.wikipedia.org/wiki/Computational_learning_theory)

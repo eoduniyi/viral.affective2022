@@ -2,8 +2,7 @@
 
 <!-- 🦋: Affective Computing and Ethics Fall 2022 -->
 
-<!-- [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/kennethreitz) -->
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
 
 ## 🔥 Resources for UI/UX, ML, and more
 
@@ -80,5 +79,5 @@
   * Role-playing models
   * Game theory
 * Game design tools 🛠
-  * Unity
+  * [Unity](https://en.wikipedia.org/wiki/Unity_(game_engine))
 

@@ -36,7 +36,7 @@
   * [OpenAI](https://openai.com/about/)
       * [OpenAI API](https://beta.openai.com/docs/)
       * [OpenAI Playground](https://beta.openai.com/playground)
-    * [HuggingFace](https://huggingface.co/)
+  * [HuggingFace](https://huggingface.co/)
       * [AutoTrain](https://huggingface.co/autotrain)
   * [AI Hub](https://aihub.cloud.google.com/)
   * [labml.ai](https://labml.ai/)
@@ -72,12 +72,11 @@
       * [_Making Pictures With Generative Adversarial Networks - Casey Reas_](https://www.anteism.com/shop/making-pictures-with-generative-adversarial-networks-casey-reas)
 
 
-
 👾 [Game Design](https://en.wikipedia.org/wiki/Game_design)
 
-* Game design theory 📚
-  * Role-playing models
-  * Game theory
+* [Game studies](https://en.wikipedia.org/wiki/Game_studies) 📚
+  * [Role-playing](https://en.wikipedia.org/wiki/Role-playing_game)
+  * [Game theory](https://en.wikipedia.org/wiki/Game_theory)
+  * [Gaming platforms (paradigms)](https://www.dailysabah.com/life/strategy-showdown-in-gaming-nintendo-vs-sony-vs-microsoft/news)
 * Game design tools 🛠
   * [Unity](https://en.wikipedia.org/wiki/Unity_(game_engine))
-

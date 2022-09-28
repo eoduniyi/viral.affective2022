@@ -11,7 +11,7 @@
 * [Cognitive Psychology](https://en.wikipedia.org/wiki/Cognitive_psychology)
 * [Human factors design](https://en.wikipedia.org/wiki/Human_factors_and_ergonomics)
 * [Human-computer interaction](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction)
-* [Algorithmic Information Theory]()
+* [Algorithmic Information Theory](https://www.youtube.com/results?search_query=algorithmic+information+theory)
   * Paper: [*Working towards understanding aesthetic judgments*](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/38315.pdf)
 
 

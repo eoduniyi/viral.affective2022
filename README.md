@@ -80,3 +80,5 @@
   * [Gaming platforms (paradigms)](https://www.dailysabah.com/life/strategy-showdown-in-gaming-nintendo-vs-sony-vs-microsoft/news)
 * Game design tools 🛠
   * [Unity](https://en.wikipedia.org/wiki/Unity_(game_engine))
+
+theme: minima

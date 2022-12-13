@@ -1,6 +1,6 @@
 param==1.12.2
 panel==0.14.1
-numpy==1.22.3
+numpy==1.21.6
 pandas==1.4.2
 holoviews==1.15.2
 plotly==5.11.0

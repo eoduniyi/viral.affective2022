@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head of operations ;) -->
+
+<head>
+    <title>AffectiveSynth</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="initial-scale=.7, maximum-scale=.7">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <style>
+        body {
+            background: #e8e8e8;
+            font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+            font-family: 'Space Grotesk', sans-serif;
+            word-wrap: break-word;
+            /* background-image: url("img/autumn-leaves-falling.gif"), url("img/mitmllogo.png"), url(img/MediaLab_Lobby.jpeg); */
+            /* background-blend-mode: color; */
+            /* background-repeat: no-repeat; */
+        }
+
+        .switch {
+          display: flex;
+        --button-width: 10em;
+        --button-height: 1em;
+        --toggle-diameter: 1.5em;
+        --button-toggle-offset: calc((var(--button-height) - var(--toggle-diameter)) / 2);
+        --toggle-shadow-offset: 10px;
+        --toggle-wider: 3em;
+        --color-grey: #cccccc;
+        --color-green: #4296f4;
+        }
+
+        .slider {
+        display: inline-block;
+        /* display: flex; */
+        width: var(--button-width);
+        height: var(--button-height);
+        background-color: var(--color-grey);
+        border-radius: calc(var(--button-height) / 2);
+        /* position: relative; */
+        transition: 0.3s all ease-in-out;
+        }
+
+        .slider::after {
+        content: "";
+        display: inline-block;
+        width: var(--toggle-diameter);
+        height: var(--toggle-diameter);
+        background-color: #fff;
+        border-radius: calc(var(--toggle-diameter) / 2);
+        position: absolute;
+        top: var(--button-toggle-offset);
+        transform: translateX(var(--button-toggle-offset));
+        box-shadow: var(--toggle-shadow-offset) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
+        transition: 0.3s all ease-in-out;
+        }
+
+        .switch input[type="checkbox"]:checked + .slider {
+        background-color: var(--color-green);
+        }
+
+        .switch input[type="checkbox"]:checked + .slider::after {
+        transform: translateX(calc(var(--button-width) - var(--toggle-diameter) - var(--button-toggle-offset)));
+        box-shadow: calc(var(--toggle-shadow-offset) * -1) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
+        }
+
+        .switch input[type="checkbox"] {
+        display: none;
+        }
+
+        .switch input[type="checkbox"]:active + .slider::after {
+        width: var(--toggle-wider);
+        }
+
+        .switch input[type="checkbox"]:checked:active + .slider::after {
+        transform: translateX(calc(var(--button-width) - var(--toggle-wider) - var(--button-toggle-offset)));
+        }
+
+        .mouse-btn {
+        margin: 50px auto;
+        width: 30em;
+        /* height: 80px; */
+        border: 3px solid rgba(122, 122, 124, 0.918);
+        border-radius: 20px;
+        display: flex;
+        }
+
+        .mouse-scroll {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: linear-gradient(170deg, rgba(122, 122, 124, 0.918), rgb(123, 124, 124));
+        border-radius: 50%;
+        margin: auto;
+        animation: scrolling13 5s linear infinite;
+        }
+
+        @keyframes scrolling13 {
+        0% {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(20px);
+        }
+        }
+
+    </style>
+</head>
+
+<!-- My body different -->
+
+<body>
+    <div>
+        <h2>AffectiveSynth</h2>
+    </div>
+    <div class="container_mouse">
+        <span class="mouse-btn">
+            <span class="mouse-scroll"></span>
+        </span>
+        <span>EDA</span>
+    </div>
+        <div class="container_mouse">
+            <span class="mouse-btn">
+                <span class="mouse-scroll"></span>
+            </span>
+            <span>ECG</span>
+        </div>
+        <div class="container_mouse">
+            <span class="mouse-btn">
+                <span class="mouse-scroll"></span>
+            </span>
+            <span>HR</span>
+        </div>
+        <div class="container_mouse">
+            <span class="mouse-btn">
+                <span class="mouse-scroll"></span>
+            </span>
+            <span>EMG</span>
+        </div>
+    <!-- <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+    </label> -->
+</body>
